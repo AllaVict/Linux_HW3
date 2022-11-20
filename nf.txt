@@ -1,0 +1,9 @@
+Sun Nov 20 15:50:12 UTC 2022
+2.6G
+   1 date >> /home/nf.txt
+   2 df -h
+   3 df -h | awk '{print $4}' | grep G >> /home/nf.txt
+   4 cat /home/nf.txt
+   5 history | tail -5 >> /home/nf.txt
+AuthenticX86
+33
